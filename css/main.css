@@ -1,0 +1,34 @@
+body {
+    background-color: #47497A;
+    color: white;
+}
+
+
+.main-header {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.container {
+
+}
+
+.main-nav {
+    display: flex;
+    gap: 3em;
+margin-right: 33em;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.socials {
+display: flex;
+gap: 1.5em;
+margin-right: 2em;
+}
+
