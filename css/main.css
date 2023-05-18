@@ -1,25 +1,24 @@
 body {
     background-color: #47497A;
     color: white;
-}
-
-
-.main-header {
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
+    display: flex;
+    justify-content: space-between;
+    }
 
+.main-header {
+/* display: flex; */
+justify-content: space-between;
+align-items: flex-end;
 }
 
 .main-nav {
     display: flex;
     gap: 3em;
 margin-right: 33em;
-
-
 }
 
 a {
@@ -30,5 +29,36 @@ a {
 display: flex;
 gap: 1.5em;
 margin-right: 2em;
+}
+
+.main-section {
+  margin-top: 10em;
+  
+}
+.main-text {
+    font-size: 2em;
+    line-height: 2.4em;
+    margin-left: 8em;
+}
+
+.title {
+    
+}
+
+.btn {
+    font-size: 0.4em;
+    border: 1px solid white;
+    padding: 1.5em 3em;
+    border-radius: 2em;
+    color: orange;
+}
+
+.btn:hover {
+    padding: 2em 4em;
+    color: white;
+    background-color: black;
+}
+.main-pic { 
+   
 }
 
