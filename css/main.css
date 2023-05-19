@@ -57,7 +57,7 @@ margin-right: 2em;
     background-color: black;
 }
 .main-pic { 
-   
+   object-fit: cover;
 }
 .main-footer {
     justify-content: center;
@@ -87,8 +87,12 @@ margin-right: 2em;
 
 .num-email {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-end;
-    margin-left: 10em;
-    margin-top: 3em;
+    gap: 2em;
+    width: 40%
+}
+
+.email {
+    
 }
