@@ -61,4 +61,37 @@ margin-right: 2em;
 .main-pic { 
    
 }
+.main-footer {
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-info {
+    display: flex;
+    line-height: 1em;
+    text-align: center;
+    line-height: 1.3em;
+    
+}
 
+.name {
+    margin-right: 2em;
+    width: 25%;
+}
+.small-quote {
+    color: lightgrey;
+    font-style: italic;
+}
+.quote {
+    margin-left: 2em;
+    font-style: italic;
+    
+}
+
+.num-email {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 10em;
+    margin-top: 3em;
+}
