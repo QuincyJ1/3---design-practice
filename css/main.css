@@ -1,98 +1,140 @@
 body {
-    background-color: #47497A;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #47497a;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    }
+  display: flex;
+  justify-content: space-between;
+}
 
 .main-header {
-align-items: flex-end;
+  align-items: flex-end;
 }
 
 .main-nav {
-    display: flex;
-    gap: 3em;
-margin-right: 33em;
+  display: flex;
+  gap: 3em;
+  margin-right: 33em;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .socials {
-display: flex;
-gap: 1.5em;
-margin-right: 2em;
+  display: flex;
+  gap: 1.5em;
+  margin-right: 2em;
 }
 
 .main-section {
   margin-top: 10em;
-  
 }
 .main-text {
-    font-size: 2em;
-    line-height: 2.4em;
-    margin-left: 8em;
+  font-size: 2em;
+  line-height: 2.4em;
+  margin-left: 8em;
 }
 
 .title {
-    
 }
 
 .btn {
-    font-size: 0.4em;
-    border: 1px solid white;
-    padding: 1.5em 3em;
-    border-radius: 2em;
-    color: orange;
+  font-size: 0.4em;
+  border: 1px solid white;
+  padding: 1.5em 3em;
+  border-radius: 2em;
+  color: orange;
 }
 
 .btn:hover {
-    padding: 2em 4em;
-    color: white;
-    background-color: black;
+  padding: 2em 4em;
+  color: white;
+  background-color: black;
 }
-.main-pic { 
-   object-fit: cover;
+.main-pic {
+  object-fit: cover;
 }
 .main-footer {
-    justify-content: center;
-    
+  justify-content: center;
 }
 .contact-info {
-    display: flex;
-    line-height: 1em;
-    text-align: center;
-    line-height: 1.3em;
-    
+  display: flex;
+  line-height: 1em;
+  text-align: center;
+  line-height: 1.3em;
 }
 
 .name {
-    margin-right: 2em;
-    width: 25%;
+  margin-right: 2em;
+  width: 25%;
 }
 .small-quote {
-    color: lightgrey;
-    font-style: italic;
+  color: lightgrey;
+  font-style: italic;
 }
 .quote {
-    margin-left: 2em;
-    font-style: italic;
-    
+  margin-left: 2em;
+  font-style: italic;
 }
 
 .num-email {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    gap: 2em;
-    width: 40%
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 2em;
+  width: 40%;
 }
 
 .email {
-    
+}
+
+@media (max-width: 1150px) {
+  .main-header {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-header {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+  .main-section {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media (max-width: 570px) {
+  .main-nav {
+    flex-wrap: wrap;
+  }
+  .main-text {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .main-pic {
+    width: 100%;
+    object-fit: contain;
+  }
+  .main-footer {
+    flex-wrap: wrap;
+  }
+  .contact-info {
+    flex-wrap: wrap;
+  }
 }
