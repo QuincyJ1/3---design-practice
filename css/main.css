@@ -131,10 +131,9 @@ a {
     width: 100%;
     object-fit: contain;
   }
-  .main-footer {
+  .main-footer, 
+  .contact-info,
+  .num-email {
     flex-wrap: wrap;
   }
-  .contact-info {
-    flex-wrap: wrap;
-  }
-}
+  
